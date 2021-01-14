@@ -8,6 +8,7 @@ cache:
 script:
   - npm run-script build
   - npm run-script build-tests
+  - npm run check-licenses
   - npm test
   - 'docker build -t ${TRAVIS_REPO_SLUG} . -f ./docker/Dockerfile'
   - 'docker build -t dredd-tests . -f ./tests/Dockerfile'

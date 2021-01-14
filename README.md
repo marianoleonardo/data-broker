@@ -1,6 +1,6 @@
 # **Data Broker**
 
-[![License badge](https://img.shields.io/badge/license-GPL-blue.svg)](https://opensource.org/licenses/GPL-3.0)
+[![License badge](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Docker badge](https://img.shields.io/docker/pulls/dojot/data-broker.svg)](https://hub.docker.com/r/dojot/data-broker/)
 [![Build Status](https://travis-ci.org/dojot/data-broker.svg?branch=development)](https://travis-ci.org/dojot/data-broker)
 [![codecov](https://codecov.io/gh/dojot/data-broker/branch/development/graph/badge.svg)](https://codecov.io/gh/dojot/data-broker)
