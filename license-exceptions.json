@@ -1,0 +1,28 @@
+{
+  "exceptions": {
+    "abab@2.0.1": {
+      "reason": "The 3-Clause BSD license is compatible with Apache-2.0"
+    },
+    "atob@2.1.2": {
+      "reason": "It allows to choose between MIT OR Apache-2.0"
+    },
+    "buffers@0.1.1": {
+      "reason": "It is licensed under the MIT/X11 License, compatible with Apache-2.0"
+    },
+    "entities@1.0.0": {
+      "reason": "The BSD 2-Clause \"Simplified\" License is compatible with Apache-2.0"
+    },
+    "expand-template@2.0.3": {
+      "reason": "It is licensed under the MIT License, compatible with Apache-2.0"
+    },
+    "jshint@2.10.2": {
+      "reason": "It is licensed under the MIT License, compatible with Apache-2.0"
+    },
+    "jszip@3.2.2": {
+      "reason": "It allows to choose between MIT OR GPL-3.0, we choose MIT, compatible with Apache-2.0"
+    },
+    "pako@1.0.10": {
+      "reason": "It is licensed under the MIT License, compatible with Apache-2.0"
+    }
+  }
+}
