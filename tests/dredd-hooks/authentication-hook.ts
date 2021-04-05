@@ -13,7 +13,7 @@ hooks.beforeEach((transaction: any, done: any) => {
   if ("request" in transaction) {
       if (("headers" in transaction.request) &&
           ("Authorization" in transaction.request.headers)) {
-        transaction.request.headers.Authorization = auth;
+        transaction.request.headers.Authorization = auth123;
       }
   }
   done();
