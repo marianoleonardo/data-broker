@@ -12,7 +12,7 @@ hooks.beforeEach((transaction: any, done: any) => {
   const auth = generate_token();
   if ("request" in transaction) {
       if (("headers" in transaction.request) &&
-          ("Authorization123" in transaction.request.headers)) {
+          ("Authorization" in transaction.request.headers)) {
         transaction.request.headers.Authorization = auth;
       }
   }
