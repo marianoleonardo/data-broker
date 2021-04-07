@@ -109,7 +109,7 @@ jobs:
     - name: Generate docs
       env:
         FOLDER_TO_GH_PAGES: /
-        PATH_APIB: ./docs/api.apib
+        PATH_APIB: ./docs/data-broker.apib
         VERSION_NAME: ${{ steps.version_doc.outputs.version }}
       run: |
         sh .github/workflows/scripts/doc_aglio_api.sh
